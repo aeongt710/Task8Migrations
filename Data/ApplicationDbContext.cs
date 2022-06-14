@@ -13,7 +13,7 @@ namespace Task8Migrations.Data
             : base(options)
         {
         }
-        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Model> Employees { get; set; }
         public DbSet<Department> Departments { get; set; }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Task8Migrations.Models
 {
-    public class Employee
+    public class Model
     {
         public int Id { get; set; }
         [Required]
